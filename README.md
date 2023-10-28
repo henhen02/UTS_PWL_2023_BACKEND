@@ -129,12 +129,12 @@ You will see messages "Server run at port 6543" when you've accesd to [http://lo
 
 - API List
   | No. | Name | Method | URL | Request Body | Request Param |
-  | --- | --- | --- | --- | --- | --- | --- |
-  | 1. | Get All Barang | GET | http://localhost:6543/announcements | \- | \- |
-  | 2. | Get Barang by Id | GET | http://localhost:6543/announcements/id | \- | id |
-  | 3. | Update Barang | PUT | http://localhost:6543/announcements/id | nama_pembeli, kontak_pembeli, alamat_pembeli | id |
-  | 4. | Delete Barang | DELETE | http://localhost:6543/announcements/id | \- | id |
-  | 5. | Create Barang | POST | http://localhost:6543/announcements | nama_penjual, kontak_penjual, alamat_penjual, nama_barang, kategori_barang, harga_barang, gambar_barang, deskripsi_barang | \- |
+  | --- | --- | --- | --- | --- | --- |
+  | 1. | Get All Barang | GET | http://localhost:6543/api/barang | \- | \- |
+  | 2. | Get Barang by Id | GET | http://localhost:6543/api/barang/id | \- | id |
+  | 3. | Update Barang | PUT | http://localhost:6543/api/barang/id | nama_pembeli, kontak_pembeli, alamat_pembeli | id |
+  | 4. | Delete Barang | DELETE | http://localhost:6543/api/barang/id | \- | id |
+  | 5. | Create Barang | POST | http://localhost:6543/api/barang | nama_penjual, kontak_penjual, alamat_penjual, nama_barang, kategori_barang, harga_barang, gambar_barang, deskripsi_barang | \- |
 
 ## Author
 
